@@ -10,7 +10,7 @@
 [2pkt] Dla każdej klasy stwórz odpowiedni plik źródłowy i nagłówkowy.
 [2pkt] Wszystkie klasy powinny być umieszczone we wspólnej przestrzeni nazw.
 
-## szczegolowa tresc:
+## Szczegolowa treść:
 Prosze o zaimplementowanie klasy czysto abstrakcyjnej Shape, majacej funkcje:
 bool isIn(int x, int y) const, ktora dla podklas zwraca informacje czy dany punkt jest wewnatrz figury.
 Po niej maja implementowac klasy:
