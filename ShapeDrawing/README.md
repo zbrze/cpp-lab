@@ -1,4 +1,4 @@
-  Sprawdzają je testy automatyczne:
+# Shape Drawing
 [8pkt] Zaimplementuj hierarchię klas zadaną na zajęciach.
     zadane atrybuty i metody,
     odpowiednie konstruktory (pusty konstruktor domyślny nie powinien być dostępny) inicjujące atrybuty (bez wartości domyślnych) z użyciem listy inicjalizującej,
@@ -10,7 +10,7 @@
 [2pkt] Dla każdej klasy stwórz odpowiedni plik źródłowy i nagłówkowy.
 [2pkt] Wszystkie klasy powinny być umieszczone we wspólnej przestrzeni nazw.
 
------- szczegolowa tresc:
+## szczegolowa tresc:
 Prosze o zaimplementowanie klasy czysto abstrakcyjnej Shape, majacej funkcje:
 bool isIn(int x, int y) const, ktora dla podklas zwraca informacje czy dany punkt jest wewnatrz figury.
 Po niej maja implementowac klasy:
@@ -19,27 +19,8 @@ oraz klasa-kompozyt ShapeComposite, ktora w konstruktorze przyjmuje dwie shared_
 i operacje na zbiorach: INTERSECTION, SUM, DIFFERENCE
 W oparciu o to bedzie mozna cala hierarchie figur polaczyc w jedno drzewo,
 dla ktorego bedzie mozna zapytac czy dany punkt jest w hierarchii, czy nie.
-Przyklad z kodu testow:
-     21:            *******
-     20:          ***********
-     19:         *************
-     18:        ***************
-     17:       *****************
-     16:      *******************
-     15:      *******************
-     14:     *********************
-     13:     *********************
-     12:     ***      ***      ***
-     11:     ***      ***      ***
-     10:     ***      ***      ***
-      9:     ***      ***      ***
-      8:     ***      ***      ***
-      7:     ***      ***      ***
-      6:     ***      ************
-      5:     ***      ************
-      4:     ***      ************
-      3:     ***      ************
-      2:     ***      ************
-      1:     *********************
+
+
+
 Opcjonalnie mozna sobie zaimplementowac klase Stage rysujaca na konsole.
  [Treść zadan i szkielet programu - Grzegorz Bazior AGH]
