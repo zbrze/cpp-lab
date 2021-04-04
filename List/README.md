@@ -31,8 +31,3 @@ W nim prosze o zaimplementowanie szablonu funkcji globalnej mySort:
        jesli dziala dla tablicy slow skladajacych sie wylacznie z DUZYCH LITER
     5. Jw. ale powinno dzialac z pominieciem wielkosci liter.
 
---------- sprawdzane ręcznie:
-    [1pkt] klasa wzorcowa powinna w całości być zdefiniowana w odpowiednim pliku
-    nagłówkowym, z tymze w klasie tylko deklaracje, a poza klasa definicje metod.
-    Funkcje skladowe zawierajace jedna linie (czyli najczesciej jedna instrukcje)
-    moga byc zdefiniowane w klasie.
